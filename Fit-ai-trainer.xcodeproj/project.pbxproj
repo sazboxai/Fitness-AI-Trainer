@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C86145652D51670500C68CA9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C86145642D51670500C68CA9 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C86145482D512B1400C68CA9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		C86145362D512B1300C68CA9 /* Fit-ai-trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fit-ai-trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86145472D512B1400C68CA9 /* Fit-ai-trainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fit-ai-trainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86145512D512B1400C68CA9 /* Fit-ai-trainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fit-ai-trainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86145642D51670500C68CA9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -79,6 +84,7 @@
 				C861454A2D512B1400C68CA9 /* Fit-ai-trainerTests */,
 				C86145542D512B1400C68CA9 /* Fit-ai-trainerUITests */,
 				C86145372D512B1300C68CA9 /* Products */,
+				C86145642D51670500C68CA9 /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C86145652D51670500C68CA9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
